@@ -1,19 +1,20 @@
 *{
-    background-color: #97aac9;
+    background-color: #f0dfed;
 }
 main{
-    display:flex;
-    flex-direction: column;
+    display:grid;
+    grid-template-areas: 
+    "nav nav"
+    "about_me about_me"
+    "education projects";
     gap: 12px;
 }
 
 nav{
     display:flex;
     flex-direction: row;
-    flex-grow: 1;
     justify-content: space-around;
     gap:12px;
-    background-color: #3a598c;
 }
 
 section{
@@ -22,17 +23,22 @@ section{
     display:flex;
     flex-direction:column;
 }
+
+nav        { grid-area: nav; }
+.about_me  { grid-area: about_me; }
+.education { grid-area: education; }
+.projects  { grid-area: projects; }
+
 .nav_item{
-    border: 0.2px solid blue;
+    height:3rem;
     border-radius: 10px;
     align-items: center;
+    display: flex;
     flex: 1;
     text-align: center;
-    background-color: #3a598c;
-
-    
-    
+    background-color: #4f434d84;    
 }
+
 /* 
 .about_me{
 
