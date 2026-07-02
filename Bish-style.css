@@ -39,6 +39,10 @@ nav        { grid-area: nav; }
     background-color: #4f434d84;    
 }
 
+a, a:visited, a:active {
+  text-decoration: none;
+  color: inherit;
+}
 /* 
 .about_me{
 
