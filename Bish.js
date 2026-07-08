@@ -15,6 +15,30 @@ form.addEventListener("submit", create);
 
 
 
+// await function getHobby(){
+// try{
+//     const response = await fetch(url);
+    // if(!response.ok){
+    //     throw new error("Request failed");
+    // }
+
+    // const data = await Response.json -> This is cause we are pulling a url which is a json file (0)
+
+// }
+
+// }
+
+
+
+//Assignment -> put update option into the card demo project
+//Install node
+//run npm install npm yarn serve in terminal
+//then you will get a address 0.0 sm like that
+//Append garera we store the data there and that is basically the URL we are fetching from 
+//Make sure you use method post when posting cause it is a good practice
+
+//Try with the hobby thing first
+
 // sub.addEventListener("submit", create);
 // ()=>{
 //     /some fn
