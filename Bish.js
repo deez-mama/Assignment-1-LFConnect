@@ -1,4 +1,8 @@
- 
+const form = document.querySelector("#add_hobbies");
+const hobby = document.querySelector("#hobby_input"); 
+const container = document.querySelector("#Hobby_section")
+form.addEventListener("submit", create);
+
 
 function create(e){
     e.preventDefault();         //Prevents default actions of forms so we can do what we want
@@ -8,10 +12,23 @@ function create(e){
     hobby.value = ""; //Changes the input element ko value into null after completing the insertion
 }
 
-const form = document.querySelector("#add_hobbies");
-const hobby = document.querySelector("#hobby_input"); 
-const container = document.querySelector("#Hobby_section")
-form.addEventListener("submit", create);
+async function loadHobby(){
+    try{
+        hobby = await fetch(API_URL);
+    }
+    catch(error){
+        hobby = "error";
+    }
+}
+
+async function createHobbyOnServer(){
+    
+}
+
+async function deleteHobbyOnSercer(){
+
+}
+
 
 
 
