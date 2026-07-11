@@ -1,0 +1,21 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "Assignment-1 for Leapfrog Connect",
+  "main": "Bish.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deez-mama/Assignment-1-LFConnect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/deez-mama/Assignment-1-LFConnect/issues"
+  },
+  "homepage": "https://github.com/deez-mama/Assignment-1-LFConnect#readme"
+}
